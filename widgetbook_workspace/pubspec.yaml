@@ -1,0 +1,29 @@
+name: widgetbook_workspace
+description: A playground to streamline shared_ui with Widgetbook
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ui_components:
+    path: ../ui_components
+  widgetbook: ^3.7.1
+  widgetbook_annotation: ^3.1.0
+
+dev_dependencies:
+  build_runner:
+  widgetbook_generator: ^3.7.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: LeagueSpartan
+      fonts:
+        - asset: assets/fonts/league_spartan_bold.ttf
+          weight: 500
+        - asset: assets/fonts/league_spartan_medium.ttf
+          weight: 600
